@@ -1,8 +1,10 @@
 # Minesweeper
 
-Author : Jamie Bali (jb862)
-Version : 3
-Date : 4th May 2020
+>Author : Jamie Bali
+>
+>Version : 3
+>
+>Date : 4th May 2020
 
 Minesweeper is a simple game of logic. Randomly generated boards contain mines. 
 Upon a left click, a tile (and all surrounding non-mine tiles) will be revealed
@@ -62,14 +64,6 @@ Expert : a 40x20 board with 220 mines (difficulty rating of 3.6)
 
 ## Footnotes
 
-* The game class is called version2 as it was refactored from a previous version
-  of the game. This version including the GUI is listed as version3 in the 
-  documentation
-** the metadata is stored in the local storage for each button within JavaFX 
-   called UserData, as this was the best way to store it. There are probably
-   more efficient ways, but since i already had a parser built this seemed best
-   situationally 
-*** difficulty rating is a minesweeper rating system for determining how much
-    skill is required to complete a board. It's assumed that a score of 10 or
-    more can be solved by randomly clicking, and a score lower than 3 is
-    practically impossible to solve without guesswork and luck.
+>* The game class is called version2 as it was refactored from a previous version of the game. This version including the GUI is listed as version3 in the documentation
+> ** the metadata is stored in the local storage for each button within JavaFX called UserData, as this was the best way to store it. There are probably more efficient ways, but since i already had a parser built this seemed best situationally 
+> *** difficulty rating is a minesweeper rating system for determining how much skill is required to complete a board. It's assumed that a score of 10 or more can be solved by randomly clicking, and a score lower than 3 is practically impossible to solve without guesswork and luck.
